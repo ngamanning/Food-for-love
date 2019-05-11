@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-project",
+  "version": "1.0.0",
+  "description": "A bootstrap responsive page design",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ngamanning/Food-for-love.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "food",
+    "website",
+    "responsive"
+  ],
+  "author": "Nga Manning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngamanning/Food-for-love/issues"
+  },
+  "homepage": "https://github.com/ngamanning/Food-for-love#readme"
+}

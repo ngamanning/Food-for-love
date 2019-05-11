@@ -1,0 +1,67 @@
+footer {
+    background-color: #814c7f;
+    .social-sprite, footer p {	
+        color:#fff;
+    }
+    ul.social-sprite {
+        text-align: right;
+        padding-right:30px;
+        list-style: none;
+        float:right;
+    }
+    ul.social-sprite li {
+		
+        display:inline-block;
+        margin-left:15px;	
+    }
+    ul.social-sprite li a {
+        background-image:url("../images/social-sprite.png");
+        background-repeat: no-repeat;
+        border:2px double rgba(255,255,255,0.7);
+        background-color:rgba(203,166,211,0.5);
+        border-radius: 50%;
+        width:55px;
+        height:55px;
+        display:inline-block;
+    }
+    .social-sprite li a:hover{	
+        background-color:rgba(255,255,255,0.8);
+        transition:1s;
+    }
+    .social-sprite li a.facebook {
+        background-position: 15px 6px;
+    }
+    .social-sprite li a.facebook:hover {
+        background-position: 12px -65px;	
+    }
+    .social-sprite li a.twitter {
+        background-position: -186px 10px;
+    }
+    .social-sprite li a.twitter:hover {
+        background-position: -188px -65px;
+    }
+    .social-sprite li a.pinterest {
+        background-position: -319px 8px;
+    }
+    .social-sprite li a.pinterest:hover {
+        background-position: -320px -64px;
+    }
+    .social-sprite li a.email {
+        background-position: -386px 12px;
+    }
+    .social-sprite li a.email:hover{
+        background-position: -385px -64px;
+    }
+    @media (max-width:$breakpoint_Small){
+	
+       
+            text-align: center;
+      
+       ul.social-sprite {
+            text-align: center;
+            float:none;
+        }
+        
+    }
+}
+

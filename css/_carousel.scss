@@ -1,0 +1,32 @@
+#carousel1 {
+	margin-bottom:30px;
+}
+#carousel1 h2 {	
+	background-color:transparent;
+	margin-bottom:30px;
+	color:#4b0049;
+	border-top:5px double #814c7f;
+	border-bottom:5px double #814c7f;
+	box-shadow: none;
+}
+.carousel-control.right, .carousel-control.left{
+	background-color:transparent;
+	background-image:none;
+}
+.carousel-indicators li, .carousel-indicators .active {
+	width:20px;
+	height:20px;
+	background-color:transparent;
+	border:1px solid rgba(255,255,255,0.7);
+	margin:0;
+	border-radius:0;
+}
+.carousel-indicators .active {
+	background-color:#814c7f;
+}
+.carousel-control .glyphicon-chevron-left, 
+	.carousel-control .glyphicon-chevron-right, 
+	.carousel-control .icon-prev, 
+	.carousel-control .icon-next {
+	font-size:50px;
+}

@@ -1,0 +1,78 @@
+
+@import '_variables.scss';
+@import '_carousel.scss';
+
+.home-heading {
+	position: relative;
+    padding-bottom: 30px;
+    article p::first-letter {
+        color:purple;
+        text-transform: uppercase;
+        font-size:50px;
+        font-family: 'Italianno', cursive;
+	} 
+	.sub-logo img {
+		float:right;
+	}   
+}
+
+section.featured-article {	
+	h3{
+		padding-top:20px;
+	}	
+	article:last-of-type{
+		border-bottom:10px solid rgba($lightPurple,0.5);
+		padding-bottom: 20px;
+	}
+	article:first-of-type{
+		border-top:10px solid rgba($lightPurple,0.5);
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width:$breakpoint_Small){
+	.sub-logo img {
+		float:none;
+		margin:0 auto;
+	}
+	
+}
+@media (min-width: $breakpoint_Small) and (max-width: $breakpoint_Large) {	
+	.heading .sub-logo {
+		position: absolute;
+		top:10px;
+		right:0;
+	}
+	.heading article p {
+		padding-top:15px;
+	}
+	.feature .row {
+		margin-bottom:30px;	
+	}
+	.feature article:nth-child(3) .row {
+		background-color:rgba(75,0,73,0.1);
+		padding-bottom:30px;
+	}
+	
+}
+@media (min-width: $breakpoint_Large) and (max-width: $breakpoint_XLarge) {	
+	
+	.feature .row {
+		margin-bottom:30px;	
+	}
+	.feature article p{
+		padding-top: 40px;
+		padding-right:30px;
+	
+	}
+	.feature article:nth-child(3) .row {
+		background-color:rgba(75,0,73,0.1);
+		padding-bottom:60px;
+	}
+	.feature article:nth-child(3) .row img {
+		float:right;
+	}
+	.feature article:nth-child(3) .row p {
+		padding-left:40px;
+	}	
+}
